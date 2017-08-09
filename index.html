@@ -7,42 +7,105 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/main.css">
-</head>
+    <link rel="stylesheet" href="css/common.css" </head>
 
-<body>
-    <header>
-        <nav class="container">
-            <div class="logo col-3">
-                <a href="index.html">Developer</a>
-            </div>
-            <ul class="main-menu col-9">
-                <li><a href="index.html">Home</a></li>
-                <li>
-                    <a href="#service">Services</a>
-                    <ul class="dropdown">
-                        <li><a href="">Design</a></li>
-                        <li><a href="">Test study</a></li>
-                        <li><a href="">Consulting</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <div class="container">
-                <h1>Hi, I'm developer</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil soluta ipsa cupiditate aliquid, explicabo
-                    voluptates incidunt consequuntur aut molestiae similique eaque ducimus, deleniti quo asperiores officiis
-                    eveniet autem praesentium quae!
-                </p>
-                <button>Hire me!</button>
-            </div>
-        </div>
-    </header>
-    <main>
-        <i class="fa fa-laptop" aria-hidden="true"></i>
-    </main>
-    <footer></footer>
+    <body>
+        <header>
+            <nav class="container">
+                <div class="logo col-3">
+                    <a href="index.html">Developer</a>
+                </div>
+                <ul class="main-menu col-9">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#service">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="">Design</a></li>
+                            <li><a href="">Test study</a></li>
+                            <li><a href="">Consulting</a></li>
+                            <li><a href="">Programming</a></li>
 
-</body>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <div class="container">
+                    <h1>Hi, I'm developer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil soluta ipsa cupiditate aliquid, explicabo
+                        voluptates incidunt consequuntur aut molestiae similique eaque ducimus, deleniti quo asperiores officiis
+                        eveniet autem praesentium quae!
+                    </p>
+                    <button>Hire me!</button>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <div class="services text-center">
+                <h1>What we do</h1>
+                <hr>
+                <p class="services_text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam neque, laudantium soluta. Dolores commodi vitae voluptas,
+                    aliquam atque iure aliquid ad repudiandae numquam natus neque rerum ea fugiat ex labore.</p>
+
+                <ul>
+                    <li classs "col-3">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <h3>Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </li>
+                    <li classs "col-3">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <h2>Test Studies</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </li>
+                    <li classs "col-3">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <h3>Consulting</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </li>
+                    <li classs "col-3">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <h3>Programming</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="services text-center contact">
+                <h1>Get in touch</h1>
+                <hr>
+
+                <form action="contact">
+                    <div>
+                        <label for="name-filed">Name</label>
+                        <input type="text" id="name-field" name="name">
+                    </div>
+                    <div>
+                        <label for="surname-filed">Surname</label>
+                        <input type="text" id="name-field" name="surname">
+                    </div>
+                    <div>
+                        <label>
+                            Email:
+                            <input type="email">
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Get latest news:
+                            <input type="checkbox" name="Subscribe" value="true">
+                        </label>
+                    </div>
+                    <button type="submit">Send</button>
+
+
+                </form>
+            </div>
+
+        </main>
+
+        <footer></footer>
+
+    </body>
 
 </html>

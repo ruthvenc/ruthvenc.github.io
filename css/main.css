@@ -68,13 +68,13 @@ header a {
         }
 
 .col-3 {
-    width: 33%;
+    width: 25%;
     display: inline-block;
 
 }
 
 .col-9 {
-    width: 66%;
+    width: 74%;
     display: inline-block;
 
 }
@@ -110,4 +110,23 @@ header a {
     display: block;
     position: absolute
 
+}
+
+.fa {
+    font-size: 48px;
+}
+.services .text-center  {
+    width: 80px;
+    margin: 30px auto;
+
+}
+.services ul {
+    list-style: none;
+    padding-left: 0;
+    }
+.services ul li {
+    min-width: 180px;
+}
+footer {
+    min-height: 300px;
 }

@@ -1,0 +1,21 @@
+.text-center {
+    text-align: center;
+
+}
+.services h3 {
+    font-weight: 400;
+    margin-top: 80px;
+
+}
+.services h2
+    
+
+.services hr {
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.services p {
+    width: 80%;
+    margin: 30px auto;
+
+}
