@@ -1,87 +1,125 @@
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-a, header a:hover {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-header a {
-    color: #333;
-}
-
 .hero {
     background: url(../img/bg-3.jpg) 0 center;
     background-size: cover;
-    padding: 100px 0;
+    min-height: 200px;
     color: white;
+    padding: 100px;
 }
+    .hero p {
+        line-height: 1.5;
+        max-width: 60%;
+    }
+
     .hero h1 {
         font-size: 39px;
         text-transform: uppercase;
-    }
-    .hero p {
-        line-height: 1.5;
-        max-width: 50%;
-    }
-    .hero button {
-        background-color: #5bc0de ;
-        color: white;
-        font-size: 18px;
-        border: 0;
-        padding: 10px;
-
+        font-family: 'Comfortaa', cursive;
     }
 
-    .hero button:hover {
-        background-color: #31b0d5;
+    .services h1 {
+        font-weight: 400;
+        margin-top: 80px;
+        font-family: 'Comfortaa', cursive;
     }
-    .hero button:hover active {
-        box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
-        background-color: #269abc;
+    .services h3 {
+        font-weight: 100;
+        font-family: 'Comfortaa', cursive;
+        
+    }
+    .services hr {
+        border: 0;  
+        border-top: 1px solid whitesmoke;
+    }
     
+    .services .services__text {
+        width: 80%;
+        margin: 30px auto;
+        font-family: Arial, Helvetica, sans-serif;
     }
+
+    .services ul {
+        list-style: none;
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    .services li {
+        min-width: 150px;
+    }
+        .hero button {
+            color: white;
+            display: block;
+            padding: 20px;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'Comfortaa', cursive;
+            list-style: none;
+            background-color: #5bc0de;
+            border: 1px solid rgba(0, 0, 0, .15);
+        }
+
+            .hero button:hover {
+                background-color: #31b0d5;
+
+            }
+            .hero button:active {
+                box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+                background-color: #269abc;
+            }
+
+
+    a, header a:hover {
+        text-decoration: none;
+    }
+    
+        a:hover {
+            text-decoration: underline;
+        }
+
+            header a {
+                color: #333;
+            }
+
+            .logo {
+                font-family: 'Comfortaa', cursive;
+            }
+
+
+
 
 .main-menu {
-    margin: 0;
-    padding-left: 0;
+    padding-left: 0px;
     text-align: right;
+    font-family: 'Righteous', cursive;
     font-size: 14px;
-
+    margin: 0;
 }
 
-    .main-menu a:hover {
-    background-color: #eee;
-
-}
     .main-menu > li {
-    display: inline-block;
-    position: relative;
+        display: inline-block;
+        position: relative;
     }
+
         .main-menu > li > a {
-            padding: 15px;
+            padding: 10px;
             display: inline-block;
         }
 
-.col-3 {
-    width: 25%;
-    display: inline-block;
+        .main-menu > li > a:hover {
+            background-color: whitesmoke;
+        }
 
-}
-
-.col-9 {
-    width: 74%;
-    display: inline-block;
-
-}
+        .main-menu > li:hover .dropdown {
+            display: block;
+            padding-left: 0;
+            text-align: left;
+            list-style: none;
+            background-color: white;
+        }
 
 .dropdown {
-    display: none;
     position: absolute;
+    display: none;
     right: 0;
     padding-left: 0;
     text-align: left;
@@ -91,42 +129,25 @@ header a {
     border: 1px solid rgba(0, 0, 0, .15);
     border-top-width: 0;
     border-radius: 4px;
-    border-top-right-radius: 0;
     border-top-left-radius: 0;
-    
+    border-top-right-radius: 0;
 
 }
 
-        .dropdown li a {
-            display: block;
-            padding: 10px 25px;
-            min-width: 100px;
-        }
-        .dropdown li:hover {
-            background-color: #eee;
-        }
-
-.main-menu > li:hover > .dropdown {
-    display: block;
-    position: absolute
-
-}
-
-.fa {
-    font-size: 48px;
-}
-.services .text-center  {
-    width: 80px;
-    margin: 30px auto;
-
-}
-.services ul {
-    list-style: none;
-    padding-left: 0;
+    .dropdown li a {
+        min-width: 100px;
+        padding: 10px 25px;
+        display: block;
     }
-.services ul li {
-    min-width: 180px;
-}
-footer {
-    min-height: 300px;
-}
+
+        .dropdown li:hover {
+            background-color: whitesmoke;
+        }
+
+
+
+
+
+/*.main-menu > li:hover .dropdown:hover > li {
+    background-color: grey;
+}*/
