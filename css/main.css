@@ -116,6 +116,10 @@ header a {
     .contact__block input {
         padding: 5px;
     }
+    .contact__block select {
+        padding: 5px;
+    }
+
 
     .contact__block-text {
         margin-top: 3px;
@@ -130,11 +134,6 @@ header a {
 .form-group {
     margin-bottom: 15px
 }
-
-
-
-
-
-footer {
-    min-height: 300px;
-}
+.m-right-10 {
+ margin-right:  10px;
+ }
