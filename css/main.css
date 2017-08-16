@@ -7,6 +7,7 @@
     background-size: cover;
     padding: 100px 0;
     color: #fff;
+    margin-top: 56px;
 }
     .hero h1 {
         font-size: 39px;
@@ -98,6 +99,25 @@ header a {
 .services ul {
     list-style: none;
     padding-left: 0;
+}
+
+.services .card {
+    height: 100%
+}
+/* Uzdedam margin bottom iki LG rezoliucijos */
+@media (max-width: 991px) {
+    .services .row li { margin-bottom: 30px; }
+}
+
+/* XS */
+@media (max-width: 575px) {
+    .services .row li:last-child { margin-bottom: 0; }
+}
+
+/* SM + MD */
+@media (min-width: 576px) AND (max-width: 991px) {
+    .services .row li:nth-child(3) { margin-bottom: 0; }
+    .services .row li:last-child { margin-bottom: 0; }
 }
 
 
