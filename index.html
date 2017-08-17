@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sticky-footer.css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -136,73 +137,73 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <form action="contact">
-
-                        <div class="form-group">
-                            <label>
-                                <span class="form-label">Name:</span>
-                                <input type="text" name="name" required>
-                            </label>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault01">Name:</label>
+                                <input type="text" class="form-control" id="validationDefault01" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault02">Surname:</label>
+                                <input type="text" class="form-control" id="validationDefault02" required>
+                            </div>
                         </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="exampleInputEmail1">Email:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                <div class="invalid-feedback">
+                                    Please provide a valid email.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="exampleFormControlSelect1">Country:</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Lithuania</option>
+                                        <option>Estonia</option>
+                                        <option>Latvia</option>
+                                        <option>Finland</option>
+                                        <option>Norway</option>
+                                    </select>
 
-                        <div class="form-group">
-                            <label>
-                                <span class="form-label">Surname:</span>
-                                <input type="text" name="surname">
-                            </label>
-                        </div>
 
-                        <div class="form-group">
-                            <label>
-                                <span class="form-label">Email:</span>
-                                <input type="email" name="Email" required>
-                            </label>
-                        </div>
-
-                        <div class="form-group">
-                            <label>
-                                <span class="form-label">Country</span>
-                            <select name="country" id="">
-                                <option value="Lt">Lithuania</option>
-                                <option value="Ndl">Netherlands</option>
-                                <option value="Bg">Belgium</option>
-                                <option value="Gr">Germany</option>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Web
+                                    </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Mobile
                                 </label>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label class="m-right-10">
-                                <input type="radio" name="project" value="web">
-                                Web
-                            </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Desktop
+                                    </label>
+                            </div>
 
-                            <label class="m-right-10">
-                                <input type="radio" name="project" value="web">
-                                Mobile
-                            </label>
+                        </div>
 
-                            <label class="m-right-10">
-                                <input type="radio" name="project" value="web">
-                                Desktop
-                            </label>
-                        </div>
-                        <div>
-                            <textarea name="notes" id="" rows="3" placeholder="Your comments"></textarea>
-                        </div>
 
                         <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="Subscribe" value="true">
-                                Get latest news
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your comments"></textarea>
+
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="">
+                                    Get latest news
                             </label>
                         </div>
-
-                        <div class="form-group">
-                            <button type="submit" class="btn-primary">Send</button>
-                        </div>
+                        <button class="btn btn-primary" type="submit">Send</button>
                     </form>
                 </div>
             </div>
+
+        </div>
 
         </div>
 
@@ -211,7 +212,11 @@
 
     <footer>
 
-
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">Place sticky footer content here.</span>
+            </div>
+        </footer>
 
         <div class="row"></div>
     </footer>
