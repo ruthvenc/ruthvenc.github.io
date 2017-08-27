@@ -7,7 +7,6 @@
     background-size: cover;
     padding: 100px 0;
     color: #fff;
-    margin-top: 56px;
 }
     .hero h1 {
         font-size: 39px;
@@ -95,6 +94,7 @@ header a {
     padding-left: 0;
 }
 
+<<<<<<< HEAD
 .services .card {
     height: 100%;
 }
@@ -116,9 +116,17 @@ header a {
     .services .row li:last-child { margin-bottom: 0; }
 }
 
+=======
+>>>>>>> parent of 8626060... javascript
 
 main {
     padding-bottom: 30px;
 }
+<<<<<<< HEAD
 .form-check-inline .form-check-label {
      margin-left: 1em;
+=======
+.m-right-10 {
+ margin-right:  10px;
+ }
+>>>>>>> parent of 8626060... javascript

@@ -76,26 +76,28 @@
 // let rezultatas = skaicius.replace(',','.');
 // console.log("Skaicius yra:", rezultatas);
 
- /*Pavyzdys su split*/
- let cityRaw = "VLN-Vilnius"; 
- let code;
- let city;
- /*let cityArray = cityRaw.split("-");
+//  /*Pavyzdys su split*/
+//  let cityRaw = "VLN-Vilnius"; 
+//  let code;
+//  let city;
+//  /*let cityArray = cityRaw.split("-");
 
-// console.log(cityArray);
-// code = cityArray[0];
-// city = cityArray[1];
+// // console.log(cityArray);
+// // code = cityArray[0];
+// // city = cityArray[1];
+// // console.log("Miestas yra:", city, ", Kodas", code);
+
+// /* Nuadojant .sub */
+// code = cityRaw.substr(0, 3);
+// city = cityRaw.substr(4, cityRaw.length - 4);
 // console.log("Miestas yra:", city, ", Kodas", code);
 
-/* Nuadojant .sub */
-code = cityRaw.substr(0, 3);
-city = cityRaw.substr(4, cityRaw.length - 4);
-console.log("Miestas yra:", city, ", Kodas", code);
+// let arVilnius = cityRaw.indexOf("Vilnius");
+// if (arVilnius !== -1) {
+//     arVilnius = 'Taip!';
+// }
+// console.log(`Ar miestas yra Vilnius: ${arVilnius}`);
 
-let arVilnius = cityRaw.indexOf("Vilnius");
-if (arVilnius !== -1) {
-    arVilnius = 'Taip!';
-}
-console.log(`Ar miestas yra Vilnius: ${arVilnius}`);
+let enterPrice = prompt("Įveskite prekės kainą");
 
 
