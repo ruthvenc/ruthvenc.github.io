@@ -98,6 +98,24 @@
 // }
 // console.log(`Ar miestas yra Vilnius: ${arVilnius}`);
 
-let enterPrice = prompt("Įveskite prekės kainą");
+let enterPrice = prompt("Įveskite prekės kainą:");
+let delivery = prompt("Ar reikalingas pristatymas?");
+if (delivery) {
+    delivery = delivery.toLowerCase()
+}
+if (delivery === "taip") {
+    deliveryCity = prompt("Į kurį miestą pristatyti?")
+    if (deliveryCity === "Vilnius" && typeof delivery === "string" || enterPrice <= "50" && typeof ebterPrice === "number") {
+        alert("Pristatymas nemokamas!");
+    } else if (enterPrice >= "50" && typeof enterprice === "number") {
+        alert("Pristatymas nemokamas");
+    } else alert("Pristatyms kitur Lietuvoje 20 eur.");
+}
+if (delivery === "ne") {
+    thankNote = prompt("Ačiū kad pirkote");
+}
+
+
+
 
 
